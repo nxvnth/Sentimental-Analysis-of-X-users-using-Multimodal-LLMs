@@ -1,3 +1,4 @@
 acc.txt
 accounts.db
 env/
+.env
