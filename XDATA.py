@@ -41,13 +41,13 @@ class XDataScraper:
             results = [
                 {
                     "username": username,
-                    "content": tweet.rawContent,
-                    "created_at": tweet.createdAt.isoformat(),
-                    "likes": tweet.likeCount,
-                    "retweets": tweet.retweetCount,
-                    "quote_count": tweet.quoteCount,
-                    "reply_count": tweet.replyCount,
-                    "language": tweet.lang
+                    "content": tweet.rawContent
+                    # "created_at": tweet.createdAt.isoformat(),
+                    # "likes": tweet.likeCount,
+                    # "retweets": tweet.retweetCount,
+                    # "quote_count": tweet.quoteCount,
+                    # "reply_count": tweet.replyCount,
+                    # "language": tweet.lang
                 } 
                 for tweet in tweets
             ]
